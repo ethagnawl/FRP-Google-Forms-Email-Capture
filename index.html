@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="email">Please enter your email address</label>
+            <input id='email' type="email" required>
+            <button disabled>Submit</button>
+        </fieldset>
+    </form>
+
+    <script>
+        window.ENV = {};
+        ENV.GOOGLE_FORM_KEY = [YOUR FORM KEY]
+        ENV.GOOGLE_FORM_INPUT_ID = [YOUR FORM INPUT ID]
+    </script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js'></script>
+    <script src='./form.js'></script>
+</body>
+</html>
