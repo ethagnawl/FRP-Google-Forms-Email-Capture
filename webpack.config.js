@@ -16,9 +16,3 @@ module.exports = {
         root: [path.join(__dirname, "bower_components")]
     }
 }
-
-new webpack.ProvidePlugin({
-    $: "jquery",
-    jQuery: "jquery",
-    "windows.jQuery": "jquery"
-})
