@@ -17,5 +17,6 @@ ToDo
 
 - end `email` and `validEmail` event streams
 - hide form on submission
+- find a solution to the CORS issue, which prevents actual, successful requests
 
 
